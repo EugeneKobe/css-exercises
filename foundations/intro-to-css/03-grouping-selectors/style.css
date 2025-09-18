@@ -1,14 +1,14 @@
 /* Add CSS Styling */
-button{
+.doClick, .dontClick{
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-button.doClick{
+.doClick{
     background-color: black;
     color: white;
 }
 
-button.dontClick{
+.dontClick{
     background-color: yellow;
 }
