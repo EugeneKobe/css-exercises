@@ -24,3 +24,45 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+body{
+  text-align: center;
+
+}
+
+.title{
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+
+.images{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.inline-image-text{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-around;
+  align-content: center;
+}
+
+
+img{
+  align-items: center;
+  text-align: center;
+}
+
+.text{
+  max-width: 200px;
+  text-align: center;
+}
+
